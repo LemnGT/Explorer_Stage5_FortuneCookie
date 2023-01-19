@@ -1,0 +1,103 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+font-size: 62.5%;
+
+--ff-p:'DM Sans', sans-serif;
+--ff-h1:'Montserrat', sans-serif;
+--ff-h2:'Dancing Script', cursive;
+--fc:#34355B;
+
+
+}
+
+.hide{
+  display: none;
+}
+
+body{
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 4.8rem 6.4rem 0rem;
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+h1, h2, button{
+  line-height: 2.9rem;
+}
+
+h1{
+  font-family: var(--ff-h1);
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--fc);
+}
+
+p{
+  font-family: var(--ff-p);
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--fc);
+  margin-bottom: 2rem;
+  line-height: 1.9rem;
+}
+
+.screen1 h1{
+  margin-bottom: 1.4rem;
+}
+
+.screen1 img{
+  margin-bottom: 6.4rem;
+}
+
+.screen2 h1{
+  margin: 0 1.5rem 1.7rem;
+}
+
+.screen2 img{
+  margin-bottom: 1.7rem;
+}
+
+h2{
+  font-family: var(--ff-h2);
+  font-weight: 400;
+  line-height: 2.9rem;
+  font-size: 2.4rem;
+  background: #E4EDF1;
+  color: #000;
+  padding: 1rem;
+  margin-bottom: 1.7rem;
+  box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
+}
+
+button{
+  padding: 1.6rem;
+  background: #FF9500;
+  border-radius: .4rem;
+  margin-bottom: 4.8rem;
+  font-family: var(--ff-p);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+
+
